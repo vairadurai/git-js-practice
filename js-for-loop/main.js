@@ -27,3 +27,21 @@ for(j in b){
 // 1
 // 2
 // 3
+
+
+// print object Key() using for in loop
+
+let c={
+    name:"vaira durai",
+     age:"23",
+     sex:"male"
+}
+for(k in c){
+    console.log(k);
+}
+
+//out put
+
+// name
+// age
+// sex

@@ -571,6 +571,18 @@ console.log(output);
 
 
 
+let a= prompt('ender a value'),
+    b=['a','e','i','o','u'],c=0;
+    for (i=0; i<a.length; i++){
+        for(j=0; j<=b.length; j++){
+            if(a[i]==b[j]){
+                c++;
+                
+            }
+        }
+ 
+    }
+    console.log(c);
 
 
 
